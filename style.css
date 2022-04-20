@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  width: 20rem;
+  max-width: 100%;
+}
+
+/* nav starts here */
+
+nav ul {
+  display: none;
+  list-style: none;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+nav ul.show {
+  display: block;
+  transition: 0.1s ease-in-out;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a::after {
+  content: "";
+  border-bottom: 1px solid red;
+}
+
+nav ul li a:hover {
+  color: #1a7cbd;
+}
+
+.hamburger {
+  height: fit-content;
+  cursor: pointer;
+}
+
+nav hr {
+  clear: right;
+}
+/* nav ends here */
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  max-width: 100%;
+}
+
+.home-text {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.home-text > h1 {
+  max-width: 80%;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.broker {
+  color: #1a7cbd;
+}
+
+.home-text > p {
+  max-width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-btn {
+  cursor: pointer;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: #1a7cbd;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 1.25rem;
+}
+
+.form {
+  max-width: 100%;
+  width: 100vw;
+  box-shadow: 0 0 10px 0 rgb(184 184 184 / 50%);
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.form input {
+  width: 100%;
+  max-width: 100%;
+  border: 0px;
+  outline: none;
+  cursor: context-menu;
+  align-items: center;
+}
+
+.form hr {
+  margin-bottom: 3rem;
+}
+
+.form p {
+  text-align: left;
+}
+
+.form h1 {
+  color: white;
+}
+
+.form-btn1 {
+  display: flex;
+  flex-direction: column;
+}
+.form-btn {
+  cursor: pointer;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: #1a7cbd;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.form-heading {
+  margin-bottom: 2rem;
+  background-color: #1a7cbd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* home section ends here */
+
+.top-brokers h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.top-brokers > h1::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 5px;
+  background: #1a7cbd;
+  position: absolute;
+  margin: 0 auto;
+  /* left: 40%; */
+}
+
+.t20 {
+  color: #1a7cbd;
+  font-weight: bolder;
+}
+/* top 20 ends here */
+
+.img-zerodha {
+  width: 158px;
+  height: 158px;
+  margin-right: 1rem;
+}
+
+.fa-star {
+  color: #f0ad4e;
+}
+
+.fa-circle-check {
+  color: #2dfd33;
+  margin-right: 0.625rem;
+}
+
+.trading-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+}
+
+.trading-options p {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+/* trading companies start here */
+
+.zerodha-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.zerodha-wrapper1 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.stars {
+  margin-bottom: 0.625rem;
+}
+
+.discount-broker {
+  background-color: #cae1f0;
+  border-radius: 5px;
+}
+
+.zerodha p {
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+.zerodha,
+.groww,
+.icici {
+  background-color: whitesmoke;
+}
+
+.top-brokers:nth-child(10) {
+  background-color: blue;
+}
+
+.first-demat-bold {
+  color: #1a7cbd;
+  font-weight: bold;
+}
+.first-demat h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.first-demat > h1::after {
+  content: "";
+  display: block;
+  width: 10.625rem;
+  height: 5px;
+  background: #1a7cbd;
+  position: absolute;
+  margin: 0 auto;
+  left: 40%;
+}
+
+.first-demat p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.about-info {
+  margin: 0 0.5rem;
+}
+
+.about-info p {
+  line-height: 1.7;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-info h2 {
+  margin-top: 2rem;
+}
+.about-info li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.about-img,
+.about-img1 {
+  width: 100%;
+}
+/* #######################################################
+#######################################################
+Media Queries for Tablet 577 to 767
+#######################################################
+####################################################### */
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .form {
+    width: 25rem;
+    margin-top: 0.625rem;
+    height: auto;
+  }
+
+  .form hr:nth-child(13) {
+    margin-bottom: 0;
+  }
+
+  .btns {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .home-btn {
+    margin-left: 1rem;
+    width: 12rem;
+  }
+
+  .form-btn {
+    margin-top: 1rem;
+  }
+
+  .home-text {
+    margin-top: 5rem;
+  }
+
+  .top-brokers > h1::after {
+    width: 170px;
+    left: 45%;
+  }
+
+  .zerodha,
+  .upstox,
+  .groww,
+  .angel-one,
+  .icici {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .zerodha-wrapper1 {
+    margin-bottom: 2rem;
+  }
+
+  /* about info starts here */
+  .about-info {
+    display: flex;
+  }
+
+  .info1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-img {
+    float: right;
+    width: 22.125rem;
+    height: 22.125rem;
+  }
+
+  .about-img1 {
+    float: left;
+    width: 22.125rem;
+    height: 22.125rem;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    display: block;
+    background-color: white;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav hr {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .form {
+    width: 25rem;
+    margin-top: 0.625rem;
+    height: auto;
+  }
+
+  .btns {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .home-btn {
+    margin-left: 1rem;
+    width: 12rem;
+  }
+
+  .form-btn {
+    margin-top: 1rem;
+  }
+
+  .home-text {
+    margin-top: 5rem;
+  }
+
+  .top-brokers > h1::after {
+    width: 180px;
+    left: 45%;
+  }
+
+  .zerodha-wrapper {
+    margin: 0;
+    display: flex;
+  }
+
+  .zerodha,
+  .upstox,
+  .groww,
+  .angel-one,
+  .icici {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .zerodha-wrapper1 {
+    display: inline;
+  }
+
+  .charges {
+    display: flex;
+  }
+
+  .discount-broker {
+    width: 10rem;
+  }
+
+  .charges-info {
+    align-items: center;
+    margin-right: 0.625rem;
+  }
+
+  /* about info stars here */
+  .about-info {
+    display: flex;
+  }
+
+  .info1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-img {
+    float: right;
+    width: 22.125rem;
+    height: 22.125rem;
+  }
+
+  .about-img1 {
+    float: left;
+    width: 22.125rem;
+    height: 22.125rem;
+  }
+
+  .about-wrapper {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .about-para{
+    display: block;
+  }
+  /* .img-zerodha {
+    float: left;
+  }
+  .small-wrapper {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .small-wrapper h2,
+  p,
+  .stars {
+    align-items: center;
+    margin-right: 3rem;
+  }
+
+.img-zerodha{
+  width: 15.625rem;
+  height: auto;
+}
+
+  .discount-broker {
+    width: 10rem;
+    height: auto;
+    justify-content: space-around;
+  }
+
+  .charges{
+    display: flex;
+  } */
+}
+
+@media (min-width: 1201px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    display: block;
+    background-color: white;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav hr {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .form {
+    width: 25rem;
+    margin-top: 0.625rem;
+    height: auto;
+  }
+
+  .form hr:nth-child(13) {
+    margin-bottom: 0;
+  }
+
+  .btns {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .home-btn {
+    margin-left: 1rem;
+    width: 12rem;
+  }
+
+  .form-btn {
+    margin-top: 1rem;
+  }
+
+  .home-text {
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+
+  .top-brokers > h1::after {
+    width: 180px;
+    left: 46%;
+  }
+
+  .zerodha-wrapper {
+    margin: 0;
+    display: flex;
+  }
+
+  .zerodha,
+  .upstox,
+  .groww,
+  .angel-one,
+  .icici {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .zerodha-wrapper1 {
+    display: inline;
+  }
+
+  .charges {
+    display: flex;
+  }
+
+  .discount-broker {
+    width: 10rem;
+  }
+
+  .charges-info {
+    align-items: center;
+    margin-right: 0.625rem;
+  }
+
+  .about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-img {
+    float: right;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .about-img1 {
+    float: left;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .about-wrapper {
+    margin-top: 2rem;
+    justify-content: space-around;
+    margin-left: 2rem;
+    width: 40%;
+  }
+}
