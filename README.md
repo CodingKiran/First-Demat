@@ -1,6 +1,6 @@
 # First-Demat
 
-It is a website to find the best online broker in the market. It provides the popular guides and reviews of online brokerage firms for readers to make an informed decision. 
+It is a website to find the best online broker in the market. It provides the popular guides and reviews of online brokerage firms for readers to make an informed decision. <br>
 **Link to project:** https://codingkiran.github.io/First-Demat/
 
 ![alt tag](https://github.com/CodingKiran/First-Demat/blob/master/images/First%20demat.png)
